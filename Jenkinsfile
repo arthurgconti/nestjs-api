@@ -8,6 +8,7 @@ pipeline {
 
             steps{
                 echo 'building...'
+                echo 'build done'
             }
         }
 
@@ -15,6 +16,7 @@ pipeline {
 
             steps{
               echo 'testing...'
+              echo 'test done'
             }
         }
 
@@ -22,6 +24,7 @@ pipeline {
 
             steps{
               echo 'deploying...'
+              echo 'deploy done'
             }
         }
     }
